@@ -1,0 +1,96 @@
+* {
+  font-family: "Arial";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #036;
+}
+
+.puntaje {
+  width: 50%;
+  height: 13vh;
+  margin: auto;
+  margin-top: 4vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+#gameboard {
+  width: 70vh;
+  height: 70vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 6vh;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.celeste {
+  background: #22a6b3;
+}
+
+.celeste.light {
+  background: #7ed6df;
+}
+
+.violeta {
+  background: #be2edd;
+}
+
+.violeta.light {
+  background: #e056fd;
+}
+
+.naranja {
+  background: #f0932b;
+}
+
+.naranja.light {
+  background: #ffbe76;
+}
+
+.verde {
+  background: #6ab04c;
+}
+
+.verde.light {
+  background: #badc58;
+}
+
+.btn-start {
+  width: 75vh;
+  height: 10vh;
+  background: #ecf0f1;
+  color: #2c3e50;
+  font-size: 2rem;
+  position: absolute;
+  top: 53vh;
+  left: calc(50% - 37.5vh);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-start:hover {
+  font-size: 2.5rem;
+  color: #ecf0f1;
+  background-color: #2c3e50;
+}
+
+.hide {
+  display: none;
+}
+
+.cursor-juego {
+  cursor: pointer;
+}
