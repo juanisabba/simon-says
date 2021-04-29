@@ -94,3 +94,41 @@ body {
 .cursor-juego {
   cursor: pointer;
 }
+
+
+@media screen and (max-width: 650px) {
+  .puntaje {
+    width: 70%;
+  }
+
+  #gameboard {
+    width: 60vh;
+    height: 60vh;
+    margin-top: 15vh;
+  }
+
+  .btn-start {
+    top: 58vh;
+    left: calc(50% - 32.5vw);
+    width: 65vw;
+    height: 8vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .puntaje {
+    width: 80%;
+  }
+
+  #gameboard {
+    width: 45vh;
+    height: 45vh;
+    margin-top: 20vh;
+  }
+
+  .btn-start {
+    top: 51.5vh;
+    left: calc(50% - 32.5vw);
+    height: 16vh;
+  }
+}
